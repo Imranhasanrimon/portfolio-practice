@@ -40,6 +40,10 @@
     font-size: 18px;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* header style  */
 .header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -129,4 +133,21 @@ main {
 .about-items {
     display: flex;
     justify-content: space-evenly;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.skill {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+main section {
+    margin: 130px 0;
 }

@@ -137,7 +137,6 @@ main {
 
 .skills-container {
     display: flex;
-    justify-content: space-around;
     gap: 20px;
     margin-top: 50px;
 }
@@ -150,4 +149,69 @@ main {
 
 main section {
     margin: 130px 0;
+}
+
+/* resume section style  */
+.resume-container {
+    display: flex;
+    gap: 20px;
+}
+
+.experience-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience-description,
+.experience-subtitle {
+    color: #757575;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.resume .btn-primary {
+    display: block;
+    margin: 50px auto;
+}
+
+/* footer styles  */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    display: block;
+    height: 64px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: white;
+    padding: 0 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+footer textarea {
+    height: 160px;
+    padding-top: 20px;
 }

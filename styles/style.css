@@ -7,6 +7,10 @@
 }
 
 /* shared style  */
+.secondary-bg {
+    background: #FFF8F3;
+}
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -23,6 +27,17 @@
     border-radius: 5px;
     font-size: 20px;
     border: none;
+}
+
+.section-title {
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.section-description {
+    color: #757575;
+    font-size: 18px;
 }
 
 /* header style  */
@@ -79,6 +94,7 @@ nav ul li a {
 .banner-title {
     font-size: 85px;
     font-weight: bold;
+    margin: -50px 0 20px 0;
 }
 
 .banner-description {
@@ -89,4 +105,28 @@ nav ul li a {
 
 .banner-profile-image {
     width: 584px;
+}
+
+/* main styles  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles  */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.item-description {
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-evenly;
 }

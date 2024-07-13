@@ -215,3 +215,7 @@ footer textarea {
     height: 160px;
     padding-top: 20px;
 }
+
+.hide {
+    display: none;
+}

@@ -227,11 +227,13 @@ footer textarea {
 
     .skills-container,
     .resume-container,
-    footer {
+    footer,
+    .about-items {
         flex-direction: column;
     }
 
-    footer {
+    footer,
+    .about {
         padding: 20px;
     }
 
